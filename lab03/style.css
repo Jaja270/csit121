@@ -1,0 +1,40 @@
+body {
+    color: rgb(185, 167, 155);
+    background-color: rgb(176, 207, 236);;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,h2,h3 {
+    color: rgb(163, 123, 84);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+a {
+    color: rgb(185, 167, 155);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+#other_list {
+    font-size: large;
+    background-color: rgb(209, 235, 251);
+}
+
+p {
+    color: rgb(142, 78, 17);
+}
+
+.introP {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#other_list p {
+    color: rgb(163, 123, 84);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    color: black;
+}
