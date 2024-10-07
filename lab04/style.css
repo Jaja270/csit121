@@ -114,12 +114,9 @@
 }
 
 
-
-
 .BodyBack1 {
     background-image: url('images/red-bull-f1.jpg'); 
     background-size: cover; 
-    background-repeat: no-repeat; 
     background-position: center; 
     margin: 0; 
 
@@ -127,8 +124,7 @@
 
 .BodyBack2 {
     background-image: url('images/officeback.jpeg'); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
+    background-size: cover;  
     background-position: center; 
     margin: 0; 
 }
@@ -136,7 +132,6 @@
 .BodyBack3 {
     background-image: url('images/NinBack.jpg'); 
     background-size: cover; 
-    background-repeat: no-repeat; 
     background-position: center; 
     margin: 0; ;
 }
