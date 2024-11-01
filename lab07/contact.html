@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="tierlist.html" aria-label="Pokémon Tier List">Tier List</a>
+        <a href="contact.html" aria-label="Contact Form">Contact Form</a>
+    </nav>
+
+    <form action="#" method="post" aria-label="Tierlist Feedback Form">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+            <p id="comments-hint" class="hint">Enter any thoughts about the tier list here.</p>
+        </div>
+
+        <div>
+            <p>What is your favorite Pokémon from the tier list?</p>
+            <input type="radio" id="charizard" name="favorite-pokemon" value="charizard">
+            <label for="charizard">Charizard</label>
+
+            <input type="radio" id="gengar" name="favorite-pokemon" value="gengar">
+            <label for="gengar">Gengar</label>
+
+            <input type="radio" id="alakazam" name="favorite-pokemon" value="alakazam">
+            <label for="alakazam">Alakazam</label>
+
+            <input type="radio" id="snorlax" name="favorite-pokemon" value="snorlax">
+            <label for="snorlax">Snorlax</label>
+
+            <input type="radio" id="sandshrew" name="favorite-pokemon" value="sandshrew">
+            <label for="sandshrew">Sandshrew</label>
+        </div>
+
+        <div>
+            <label for="improvement">How could I improve the tier list?</label>
+            <select id="improvement" name="improvement">
+                <option value="add_pokemon">Add more Pokémon</option>
+                <option value="adjust_tiers">Adjust the tier ranking</option>
+                <option value="add_description">Provide more descriptions</option>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

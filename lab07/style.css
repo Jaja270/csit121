@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    width: 125px;
+    height: 80px;
+    text-align: center;
+}
+
+table td:first-child,
+table th:first-child {
+    width: 70px;
+}
+
+tr:nth-child(1) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(2) {
+    background-color: #f34823;
+}
+
+tr:nth-child(3) {
+    background-color: #f9a921;
+}
+
+tr:nth-child(4) {
+    background-color: #fdcf21;
+}
+
+tr:nth-child(5) {
+    background-color: #08af5b;
+}
+
+tr:nth-child(6) {
+    background-color: #1098ff;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    background: #333; 
+    padding: 10px;    
+}
+
+nav a {
+    color: white;        
+    text-decoration: none; 
+    margin-right: 15px;   
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px; 
+}
+
+form input, form textarea, form select {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
