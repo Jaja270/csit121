@@ -80,6 +80,7 @@
 .images1 img,.images2 img,.images3 img {
     max-width: 100%; 
     height: auto; 
+    text-align: center;
 
 }
 
