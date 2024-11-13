@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employees>
+    <employee id="be200">
+        <firstname>Elena</firstname>
+        <lastname>Rivera</lastname>
+        <title>Web Designer</title>
+        <division>User Experience</division>
+        <building>330</building>
+        <room>11</room>
+    </employee>
+    <employee id="be201">
+        <firstname>Rajesh</firstname>
+        <lastname>Bhatt</lastname>
+        <title>Cloud Architect</title>
+        <division>Infrastructure</division>
+        <building>318</building>
+        <room>05</room>
+    </employee>
+    <employee id="be202">
+        <firstname>Lin</firstname>
+        <lastname>Wei</lastname>
+        <title>Data Scientist</title>
+        <division>Analytics</division>
+        <building>331</building>
+        <room>27</room>
+    </employee>
+    <employee id="be203">
+        <firstname>Carla</firstname>
+        <lastname>Ortega</lastname>
+        <title>Operations Manager</title>
+        <division>Logistics</division>
+        <building>317</building>
+        <room>09</room>
+    </employee>
+    <employee id="be204">
+        <firstname>Tomoki</firstname>
+        <lastname>Sato</lastname>
+        <title>AI Specialist</title>
+        <division>Research</division>
+        <building>329</building>
+        <room>33</room>
+    </employee>
+    <employee id="be205">
+        <firstname>Nia</firstname>
+        <lastname>Okafor</lastname>
+        <title>Marketing Strategist</title>
+        <division>Marketing</division>
+        <building>324</building>
+        <room>21</room>
+    </employee>
+    <employee id="be206">
+        <firstname>Liam</firstname>
+        <lastname>Hughes</lastname>
+        <title>Lawyer</title>
+        <division>Legal</division>
+        <building>333</building>
+        <room>12</room>
+    </employee>
+</employees>
