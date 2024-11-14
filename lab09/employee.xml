@@ -55,7 +55,8 @@
         <division>Legal</division>
         <building>333</building>
         <room>12</room>
-    <employee id="be129">
+    </employee>
+        <employee id="be129">
         <firstname>Jitendra</firstname>
         <lastname>Kumar</lastname>
         <title>Engineer</title>
